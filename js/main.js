@@ -1,5 +1,14 @@
-import $ from 'jquery';
-import _ from 'underscore';
-import moment from 'moment';
+import angular from 'angular';
+import 'angular-ui-router';
 
-console.log('Hello, World');
+import config from './config'; 
+
+import HomeController from './controllers/home.controller';
+import LayoutController from './controllers/layout.controller';
+
+angular
+  .module('app', ['ui.router'])
+  .config(config)
+  .controller('HomeController', HomeController)
+  .controller('LayoutController', LayoutController)
+;
