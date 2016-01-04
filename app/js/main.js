@@ -4,7 +4,7 @@
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
-var config = function config($stateProvider, $urlRouteProvider) {
+var config = function config($stateProvider, $urlRouterProvider) {
 
   $urlRouterProvider.otherwise('/');
 
@@ -19,7 +19,7 @@ var config = function config($stateProvider, $urlRouteProvider) {
   });
 };
 
-config.$inject = ['$stateProvider', '$urlRouteProvider'];
+config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
 exports['default'] = config;
 module.exports = exports['default'];
@@ -33,7 +33,7 @@ Object.defineProperty(exports, "__esModule", {
 var HomeController = function HomeController() {
 
   var vm = this;
-  vm.title = Portfolio;
+  vm.title = "Portfolio";
 };
 
 HomeController.$inject = [];

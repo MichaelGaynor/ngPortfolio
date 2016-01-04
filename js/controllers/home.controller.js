@@ -1,7 +1,7 @@
 let HomeController = function() {
   
   let vm = this;
-  vm.title = Portfolio;
+  vm.title = "Portfolio";
 
 };
 
