@@ -1,6 +1,31 @@
 // Put any @imports here
 // See Readme for a list of supported ones
 
+$myBackground: magenta;
+$myColor: white;
+
 body {
-  background: #e2ebf3;
+  background: $myBackground;
 }
+
+.layoutBar { 
+  h1{
+    margin: 0;
+    background: $myColor;
+    color: $myBackground;
+    font-family: Helvetica, sans-serif;
+  }
+}
+
+.container {
+  h1{
+    margin: 0;
+    background: $myBackground;
+    color: $myColor;
+  }
+  h1:hover{
+    background: $myColor;
+    color: $myBackground;
+  }
+}
+

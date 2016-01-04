@@ -1,4 +1,19 @@
 body {
-  background: #e2ebf3; }
+  background: magenta; }
+
+.layoutBar h1 {
+  margin: 0;
+  background: white;
+  color: magenta;
+  font-family: Helvetica, sans-serif; }
+
+.container h1 {
+  margin: 0;
+  background: magenta;
+  color: white; }
+
+.container h1:hover {
+  background: white;
+  color: magenta; }
 
 /*# sourceMappingURL=main.css.map */
