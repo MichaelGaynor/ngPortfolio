@@ -7,6 +7,9 @@ body {
   color: #98E205;
   font-family: Helvetica, sans-serif; }
 
+.layoutBar h1:hover {
+  cursor: pointer; }
+
 .layoutBar span {
   color: #333333; }
 
@@ -17,7 +20,8 @@ body {
   font-size: 100px; }
 
 .container span:hover {
-  color: #333333; }
+  color: #333333;
+  cursor: pointer; }
 
 .paragraph {
   width: 80%;

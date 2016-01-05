@@ -16,6 +16,9 @@ body {
     color: $myBackground;
     font-family: Helvetica, sans-serif;
   }
+  h1:hover{
+    cursor: pointer;
+  }
   span{
     color: $myText;
   }
@@ -33,6 +36,7 @@ body {
   }
   span:hover{
     color: $myText;
+    cursor: pointer;
   }
 }
 
