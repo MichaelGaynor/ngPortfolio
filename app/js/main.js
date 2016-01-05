@@ -33,7 +33,8 @@ Object.defineProperty(exports, "__esModule", {
 var HomeController = function HomeController() {
 
   var vm = this;
-  vm.title = "Portfolio";
+  vm.title = "Web";
+  vm.title2 = "Design";
 };
 
 HomeController.$inject = [];

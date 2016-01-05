@@ -1,8 +1,9 @@
 // Put any @imports here
 // See Readme for a list of supported ones
 
-$myBackground: magenta;
+$myBackground: #98E205;
 $myColor: white;
+$myText: #333333;
 
 body {
   background: $myBackground;
@@ -15,17 +16,32 @@ body {
     color: $myBackground;
     font-family: Helvetica, sans-serif;
   }
+  span{
+    color: $myText;
+  }
 }
 
 .container {
   h1{
-    margin: 0;
+    text-align: center;
     background: $myBackground;
     color: $myColor;
+    font-size: 100px;
   }
-  h1:hover{
-    background: $myColor;
-    color: $myBackground;
+  span{
+    // font-size: 300%;
   }
+  span:hover{
+    color: $myText;
+  }
+}
+
+.paragraph {
+  width: 80%;
+  margin: 30px auto;
+  background: $myColor;
+  padding: 10px;
+  border-radius: 25px;
+  color: $myText;
 }
 

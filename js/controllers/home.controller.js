@@ -1,8 +1,8 @@
 let HomeController = function() {
   
   let vm = this;
-  vm.title = "Portfolio";
-
+  vm.title = "Web";
+  vm.title2 = "Design";
 };
 
 HomeController.$inject = [];
