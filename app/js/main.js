@@ -16,6 +16,14 @@ var config = function config($stateProvider, $urlRouterProvider) {
     url: '/',
     controller: 'HomeController as vm',
     templateUrl: 'templates/home.tpl.html'
+  }).state('root.web', {
+    url: '/web',
+    controller: 'WebController as vm',
+    templateUrl: 'templates/web.tpl.html'
+  }).state('root.design', {
+    url: '/design',
+    controller: 'DesignController as vm',
+    templateUrl: 'templates/design.tpl.html'
   });
 };
 
@@ -30,19 +38,40 @@ module.exports = exports['default'];
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var HomeController = function HomeController() {
+var DesignController = function DesignController() {};
+
+DesignController.$inject = [];
+
+exports["default"] = DesignController;
+module.exports = exports["default"];
+
+},{}],3:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var HomeController = function HomeController($state) {
 
   var vm = this;
   vm.title = "Web";
   vm.title2 = "Design";
+
+  vm.goWeb = function () {
+    $state.go('root.web');
+  };
+
+  vm.goDesign = function () {
+    $state.go('root.design');
+  };
 };
 
-HomeController.$inject = [];
+HomeController.$inject = ['$state'];
 
 exports["default"] = HomeController;
 module.exports = exports["default"];
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -55,7 +84,20 @@ LayoutController.$inject = [];
 exports["default"] = LayoutController;
 module.exports = exports["default"];
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var WebController = function WebController() {};
+
+WebController.$inject = [];
+
+exports["default"] = WebController;
+module.exports = exports["default"];
+
+},{}],6:[function(require,module,exports){
 'use strict';
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
@@ -78,9 +120,17 @@ var _controllersLayoutController = require('./controllers/layout.controller');
 
 var _controllersLayoutController2 = _interopRequireDefault(_controllersLayoutController);
 
-_angular2['default'].module('app', ['ui.router']).config(_config2['default']).controller('HomeController', _controllersHomeController2['default']).controller('LayoutController', _controllersLayoutController2['default']);
+var _controllersWebController = require('./controllers/web.controller');
 
-},{"./config":1,"./controllers/home.controller":2,"./controllers/layout.controller":3,"angular":7,"angular-ui-router":5}],5:[function(require,module,exports){
+var _controllersWebController2 = _interopRequireDefault(_controllersWebController);
+
+var _controllersDesignController = require('./controllers/design.controller');
+
+var _controllersDesignController2 = _interopRequireDefault(_controllersDesignController);
+
+_angular2['default'].module('app', ['ui.router']).config(_config2['default']).controller('HomeController', _controllersHomeController2['default']).controller('LayoutController', _controllersLayoutController2['default']).controller('WebController', _controllersWebController2['default']).controller('DesignController', _controllersDesignController2['default']);
+
+},{"./config":1,"./controllers/design.controller":2,"./controllers/home.controller":3,"./controllers/layout.controller":4,"./controllers/web.controller":5,"angular":9,"angular-ui-router":7}],7:[function(require,module,exports){
 /**
  * State-based routing for AngularJS
  * @version v0.2.15
@@ -4451,7 +4501,7 @@ angular.module('ui.router.state')
   .filter('isState', $IsStateFilter)
   .filter('includedByState', $IncludedByStateFilter);
 })(window, window.angular);
-},{}],6:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 /**
  * @license AngularJS v1.4.8
  * (c) 2010-2015 Google, Inc. http://angularjs.org
@@ -33470,11 +33520,11 @@ $provide.value("$locale", {
 })(window, document);
 
 !window.angular.$$csp().noInlineStyle && window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
-},{}],7:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 require('./angular');
 module.exports = angular;
 
-},{"./angular":6}]},{},[4])
+},{"./angular":8}]},{},[6])
 
 
 //# sourceMappingURL=main.js.map

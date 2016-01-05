@@ -13,6 +13,16 @@ let config = function($stateProvider, $urlRouterProvider) {
       controller: 'HomeController as vm',
       templateUrl: 'templates/home.tpl.html'
     })
+    .state('root.web', {
+      url: '/web',
+      controller: 'WebController as vm',
+      templateUrl: 'templates/web.tpl.html'
+    })
+    .state('root.design', {
+      url: '/design',
+      controller: 'DesignController as vm',
+      templateUrl: 'templates/design.tpl.html'
+    })
     ; 
 
 };
