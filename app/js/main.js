@@ -72,17 +72,24 @@ exports["default"] = HomeController;
 module.exports = exports["default"];
 
 },{}],4:[function(require,module,exports){
-"use strict";
+'use strict';
 
-Object.defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, '__esModule', {
   value: true
 });
-var LayoutController = function LayoutController() {};
+var LayoutController = function LayoutController($state) {
 
-LayoutController.$inject = [];
+  var vm = this;
 
-exports["default"] = LayoutController;
-module.exports = exports["default"];
+  vm.goHome = function () {
+    $state.go('root.home');
+  };
+};
+
+LayoutController.$inject = ['$state'];
+
+exports['default'] = LayoutController;
+module.exports = exports['default'];
 
 },{}],5:[function(require,module,exports){
 "use strict";
