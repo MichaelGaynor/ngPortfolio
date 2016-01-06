@@ -92,17 +92,28 @@ exports['default'] = LayoutController;
 module.exports = exports['default'];
 
 },{}],5:[function(require,module,exports){
-"use strict";
+'use strict';
 
-Object.defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, '__esModule', {
   value: true
 });
-var WebController = function WebController() {};
+var WebController = function WebController() {
+
+  var auditioncity = document.getElementById('auditioncity');
+  var contactapp = document.getElementById('contactapp');
+
+  auditioncity.onclick = function () {
+    window.location = "http://auditioncity.surge.sh/#/login";
+  };
+  contactapp.onclick = function () {
+    window.location = "http://violet-train.surge.sh/";
+  };
+};
 
 WebController.$inject = [];
 
-exports["default"] = WebController;
-module.exports = exports["default"];
+exports['default'] = WebController;
+module.exports = exports['default'];
 
 },{}],6:[function(require,module,exports){
 'use strict';

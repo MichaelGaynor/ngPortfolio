@@ -19,16 +19,27 @@ body {
   color: white;
   font-size: 100px; }
 
+.container h1:hover {
+  cursor: default; }
+
 .container span:hover {
   color: #333333;
   cursor: pointer; }
 
-.paragraph {
-  width: 80%;
-  margin: 30px auto;
-  background: white;
-  padding: 10px;
-  border-radius: 25px;
-  color: #333333; }
+#WebsiteList {
+  width: 100%;
+  text-align: center; }
+  #WebsiteList .website {
+    width: 35%;
+    margin: 5%;
+    background: white;
+    padding: 10px;
+    color: #333333;
+    display: inline-block; }
+    #WebsiteList .website a {
+      text-decoration: none; }
+  #WebsiteList .website:hover {
+    background: #333333;
+    cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
