@@ -1,5 +1,6 @@
 // Put any @imports here
 // See Readme for a list of supported ones
+@import "font-awesome";
 
 $myBackground: #98E205;
 $myColor: white;
@@ -22,6 +23,10 @@ body {
   }
   span{
     color: $myText;
+  }
+  i{
+    float: right;
+    margin: 3px 5px 0 0; 
   }
 }
 
@@ -46,7 +51,7 @@ body {
 #WebsiteList {
   width: 100%;
   text-align: center;
-  .website {
+  .website{
     width: 35%;
     margin: 5%;
     background: $myColor;
@@ -54,11 +59,11 @@ body {
     // border-radius: 25px;
     color: $myText;
     display: inline-block;
-    a {
+    a{
       text-decoration: none;
     }
   }
-  .website:hover {
+  .website:hover{
     background: $myText;
     cursor: pointer;
   }
