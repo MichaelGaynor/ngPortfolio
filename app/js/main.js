@@ -80,6 +80,11 @@ Object.defineProperty(exports, '__esModule', {
 var LayoutController = function LayoutController($state) {
 
   var vm = this;
+  var github = document.getElementById('fa-github');
+
+  github.onclick = function () {
+    window.location = "https://github.com/MichaelGaynor";
+  };
 
   vm.goHome = function () {
     $state.go('root.home');

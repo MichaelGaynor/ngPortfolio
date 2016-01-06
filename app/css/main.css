@@ -2087,15 +2087,20 @@ body {
   color: #98E205;
   font-family: Helvetica, sans-serif; }
 
-.layoutBar h1:hover {
-  cursor: pointer; }
+.layoutBar span:hover {
+  cursor: pointer;
+  color: #333333; }
 
-.layoutBar span {
+.layoutBar span.gaynor {
   color: #333333; }
 
 .layoutBar i {
   float: right;
   margin: 3px 5px 0 0; }
+
+.layoutBar i:hover {
+  cursor: pointer;
+  color: #333333; }
 
 .container h1 {
   text-align: center;
@@ -2120,10 +2125,9 @@ body {
     padding: 10px;
     color: #333333;
     display: inline-block; }
-    #WebsiteList .website a {
-      text-decoration: none; }
   #WebsiteList .website:hover {
     background: #333333;
+    color: white;
     cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

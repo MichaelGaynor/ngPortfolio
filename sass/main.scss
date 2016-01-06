@@ -18,15 +18,20 @@ body {
     color: $myBackground;
     font-family: Helvetica, sans-serif;
   }
-  h1:hover{
+  span:hover{
     cursor: pointer;
+    color: $myText;
   }
-  span{
+  span.gaynor{
     color: $myText;
   }
   i{
     float: right;
     margin: 3px 5px 0 0; 
+  }
+  i:hover{
+    cursor: pointer;
+    color: $myText;
   }
 }
 
@@ -59,12 +64,10 @@ body {
     // border-radius: 25px;
     color: $myText;
     display: inline-block;
-    a{
-      text-decoration: none;
-    }
   }
   .website:hover{
     background: $myText;
+    color: $myColor;
     cursor: pointer;
   }
 }
