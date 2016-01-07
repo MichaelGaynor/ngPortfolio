@@ -58,7 +58,7 @@ body {
   text-align: center;
   .website{
     width: 35%;
-    margin: 5%;
+    margin: 5% 2% 0;
     background: $myColor;
     padding: 10px;
     // border-radius: 25px;
@@ -70,6 +70,38 @@ body {
     color: $myColor;
     cursor: pointer;
   }
+  #auditioncity{
+    border-top-left-radius: 250px 50px;
+    border-bottom-left-radius: 50px 250px;
+    border-top-right-radius: 50px 250px;
+    border-bottom-right-radius: 250px 50px;
+  }
+  #contactapp{
+    border-top-left-radius: 50px 250px;
+    border-bottom-left-radius: 250px 50px;
+    border-top-right-radius: 250px 50px;
+    border-bottom-right-radius: 50px 250px;
+  }
+  #sample1{
+    border-top-left-radius: 250px 50px;
+    border-bottom-left-radius: 50px 250px;
+    border-top-right-radius: 50px 250px;
+    border-bottom-right-radius: 250px 50px;  
+  }
+  #sample2{
+    border-top-left-radius: 50px 250px;
+    border-bottom-left-radius: 250px 50px;
+    border-top-right-radius: 250px 50px;
+    border-bottom-right-radius: 50px 250px; 
+  }
 }
 
 // DESIGN PAGE
+.design{
+  margin: 0;
+  padding: 0;
+  h1{
+    margin: 0;
+    padding: 0;
+  }
+}

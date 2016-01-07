@@ -2120,7 +2120,7 @@ body {
   text-align: center; }
   #WebsiteList .website {
     width: 35%;
-    margin: 5%;
+    margin: 5% 2% 0;
     background: white;
     padding: 10px;
     color: #333333;
@@ -2129,5 +2129,32 @@ body {
     background: #333333;
     color: white;
     cursor: pointer; }
+  #WebsiteList #auditioncity {
+    border-top-left-radius: 250px 50px;
+    border-bottom-left-radius: 50px 250px;
+    border-top-right-radius: 50px 250px;
+    border-bottom-right-radius: 250px 50px; }
+  #WebsiteList #contactapp {
+    border-top-left-radius: 50px 250px;
+    border-bottom-left-radius: 250px 50px;
+    border-top-right-radius: 250px 50px;
+    border-bottom-right-radius: 50px 250px; }
+  #WebsiteList #sample1 {
+    border-top-left-radius: 250px 50px;
+    border-bottom-left-radius: 50px 250px;
+    border-top-right-radius: 50px 250px;
+    border-bottom-right-radius: 250px 50px; }
+  #WebsiteList #sample2 {
+    border-top-left-radius: 50px 250px;
+    border-bottom-left-radius: 250px 50px;
+    border-top-right-radius: 250px 50px;
+    border-bottom-right-radius: 50px 250px; }
+
+.design {
+  margin: 0;
+  padding: 0; }
+  .design h1 {
+    margin: 0;
+    padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
