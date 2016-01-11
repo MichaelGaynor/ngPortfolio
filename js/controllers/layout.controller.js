@@ -7,8 +7,10 @@ let LayoutController = function($state) {
     window.location = "https://github.com/MichaelGaynor";
   };
 
-  vm.goHome = function() {
-    $state.go('root.home');
+  vm.menu = function() {
+    // $state.go('root.home');
+    var ul = document.getElementById('menu');
+    ul.classList.toggle("nav");
   };
 
 };

@@ -2090,6 +2090,8 @@ body {
 .layoutBar span:hover {
   cursor: pointer;
   color: #333333; }
+  .layoutBar span:hover span.gaynor {
+    color: #98E205; }
 
 .layoutBar span.gaynor {
   color: #333333; }
@@ -2101,6 +2103,28 @@ body {
 .layoutBar i:hover {
   cursor: pointer;
   color: #333333; }
+
+ul.nav {
+  visibility: hidden;
+  opacity: 0;
+  height: 0; }
+
+ul.visible {
+  visibility: visible;
+  transition-duration: 1s;
+  color: white;
+  height: 0; }
+  ul.visible a {
+    text-decoration: none;
+    cursor: pointer; }
+  ul.visible :link {
+    color: white; }
+  ul.visible :visited {
+    color: white; }
+  ul.visible :active {
+    color: #333333; }
+  ul.visible :hover {
+    color: #333333; }
 
 .container h1 {
   text-align: center;
@@ -2124,7 +2148,8 @@ body {
     background: white;
     padding: 10px;
     color: #333333;
-    display: inline-block; }
+    display: inline-block;
+    border: 4px dotted #333333; }
   #WebsiteList .website:hover {
     background: #333333;
     color: white;

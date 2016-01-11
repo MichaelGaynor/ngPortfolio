@@ -23,6 +23,11 @@ let config = function($stateProvider, $urlRouterProvider) {
       controller: 'DesignController as vm',
       templateUrl: 'templates/design.tpl.html'
     })
+    .state('root.bio', {
+      url: '/bio',
+      controller: 'BioController as vm',
+      templateUrl: 'templates/bio.tpl.html'
+    })
     ; 
 
 };

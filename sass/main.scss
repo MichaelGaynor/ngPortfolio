@@ -21,6 +21,9 @@ body {
   span:hover{
     cursor: pointer;
     color: $myText;
+    span.gaynor{
+      color: $myBackground;
+    }
   }
   span.gaynor{
     color: $myText;
@@ -34,6 +37,34 @@ body {
     color: $myText;
   }
 }
+ul.nav{
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+}
+ul.visible {
+  visibility: visible;
+  transition-duration: 1s;
+  color: $myColor;
+  height: 0;
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  :link{
+    color: $myColor;
+  }
+  :visited{
+    color: $myColor;
+  }
+  :active{
+    color: $myText;
+  }
+  :hover{
+    color: $myText;
+  }
+}
+
 
 // HOME PAGE
 .container {
@@ -64,6 +95,7 @@ body {
     // border-radius: 25px;
     color: $myText;
     display: inline-block;
+    border: 4px dotted $myText;
   }
   .website:hover{
     background: $myText;
