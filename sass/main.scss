@@ -92,7 +92,7 @@ ul.visible {
   width: 100%;
   text-align: center;
   .website{
-    width: 35%;
+    width: 280px;
     margin: 5% 2% 0;
     background: $myColor;
     padding: 10px;
@@ -105,6 +105,7 @@ ul.visible {
     background: $myText;
     color: $myColor;
     cursor: pointer;
+    transition-duration: 1s;
   }
   #auditioncity{
     border-top-left-radius: 250px 50px;

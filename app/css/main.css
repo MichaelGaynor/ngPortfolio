@@ -2147,7 +2147,7 @@ ul.visible {
   width: 100%;
   text-align: center; }
   #WebsiteList .website {
-    width: 35%;
+    width: 280px;
     margin: 5% 2% 0;
     background: white;
     padding: 10px;
@@ -2157,7 +2157,8 @@ ul.visible {
   #WebsiteList .website:hover {
     background: #333333;
     color: white;
-    cursor: pointer; }
+    cursor: pointer;
+    transition-duration: 1s; }
   #WebsiteList #auditioncity {
     border-top-left-radius: 250px 50px;
     border-bottom-left-radius: 50px 250px;
