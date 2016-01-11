@@ -2189,4 +2189,18 @@ ul.visible {
     margin: 0;
     padding: 0; }
 
+#bio {
+  width: 80%;
+  margin: 4% auto; }
+  #bio #bioImage {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    #bio #bioImage img {
+      width: 100%;
+      margin-bottom: 0; }
+  #bio #bioText {
+    background: white;
+    margin-top: -20px;
+    padding: 5px; }
+
 /*# sourceMappingURL=main.css.map */

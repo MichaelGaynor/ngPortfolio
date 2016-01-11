@@ -145,3 +145,24 @@ ul.visible {
     padding: 0;
   }
 }
+
+// BIO PAGE
+#bio {
+  width: 80%;
+  margin: 4% auto;
+  #bioImage{
+    img{
+      width: 100%;
+      margin-bottom: 0;
+    }
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #bioText{
+    background: $myColor;
+    margin-top: -20px;
+    padding: 5px;
+  }
+}
+
+//CONTACT PAGE
