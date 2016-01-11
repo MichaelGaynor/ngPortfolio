@@ -28,6 +28,10 @@ var config = function config($stateProvider, $urlRouterProvider) {
     url: '/bio',
     controller: 'BioController as vm',
     templateUrl: 'templates/bio.tpl.html'
+  }).state('root.contact', {
+    url: '/contact',
+    controller: 'ContactController as vm',
+    templateUrl: 'templates/contact.tpl.html'
   });
 };
 
@@ -58,6 +62,19 @@ module.exports = exports["default"];
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+var ContactController = function ContactController() {};
+
+ContactController.$inject = [];
+
+exports["default"] = ContactController;
+module.exports = exports["default"];
+
+},{}],4:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 var DesignController = function DesignController() {};
 
 DesignController.$inject = [];
@@ -65,7 +82,7 @@ DesignController.$inject = [];
 exports["default"] = DesignController;
 module.exports = exports["default"];
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -91,7 +108,7 @@ HomeController.$inject = ['$state'];
 exports["default"] = HomeController;
 module.exports = exports["default"];
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -118,7 +135,7 @@ LayoutController.$inject = ['$state'];
 exports['default'] = LayoutController;
 module.exports = exports['default'];
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -150,7 +167,7 @@ WebController.$inject = [];
 exports['default'] = WebController;
 module.exports = exports['default'];
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 'use strict';
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
@@ -189,9 +206,13 @@ var _controllersBioController = require('./controllers/bio.controller');
 
 var _controllersBioController2 = _interopRequireDefault(_controllersBioController);
 
-_angular2['default'].module('app', ['ui.router']).config(_config2['default']).controller('HomeController', _controllersHomeController2['default']).controller('LayoutController', _controllersLayoutController2['default']).controller('WebController', _controllersWebController2['default']).controller('DesignController', _controllersDesignController2['default']).controller('BioController', _controllersBioController2['default']);
+var _controllersContactController = require('./controllers/contact.controller');
 
-},{"./config":1,"./controllers/bio.controller":2,"./controllers/design.controller":3,"./controllers/home.controller":4,"./controllers/layout.controller":5,"./controllers/web.controller":6,"angular":10,"angular-ui-router":8,"jquery":11}],8:[function(require,module,exports){
+var _controllersContactController2 = _interopRequireDefault(_controllersContactController);
+
+_angular2['default'].module('app', ['ui.router']).config(_config2['default']).controller('HomeController', _controllersHomeController2['default']).controller('LayoutController', _controllersLayoutController2['default']).controller('WebController', _controllersWebController2['default']).controller('DesignController', _controllersDesignController2['default']).controller('BioController', _controllersBioController2['default']).controller('ContactController', _controllersContactController2['default']);
+
+},{"./config":1,"./controllers/bio.controller":2,"./controllers/contact.controller":3,"./controllers/design.controller":4,"./controllers/home.controller":5,"./controllers/layout.controller":6,"./controllers/web.controller":7,"angular":11,"angular-ui-router":9,"jquery":12}],9:[function(require,module,exports){
 /**
  * State-based routing for AngularJS
  * @version v0.2.15
@@ -4562,7 +4583,7 @@ angular.module('ui.router.state')
   .filter('isState', $IsStateFilter)
   .filter('includedByState', $IncludedByStateFilter);
 })(window, window.angular);
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 /**
  * @license AngularJS v1.4.8
  * (c) 2010-2015 Google, Inc. http://angularjs.org
@@ -33581,11 +33602,11 @@ $provide.value("$locale", {
 })(window, document);
 
 !window.angular.$$csp().noInlineStyle && window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 require('./angular');
 module.exports = angular;
 
-},{"./angular":9}],11:[function(require,module,exports){
+},{"./angular":10}],12:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v2.1.4
  * http://jquery.com/
@@ -42797,7 +42818,7 @@ return jQuery;
 
 }));
 
-},{}]},{},[7])
+},{}]},{},[8])
 
 
 //# sourceMappingURL=main.js.map

@@ -28,6 +28,11 @@ let config = function($stateProvider, $urlRouterProvider) {
       controller: 'BioController as vm',
       templateUrl: 'templates/bio.tpl.html'
     })
+    .state('root.contact', {
+      url: '/contact',
+      controller: 'ContactController as vm',
+      templateUrl: 'templates/contact.tpl.html'
+    })
     ; 
 
 };

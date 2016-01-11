@@ -2097,7 +2097,7 @@ body {
 .layoutBar span.gaynor {
   color: #333333; }
 
-.layoutBar i {
+.layoutBar #fa-github {
   float: right;
   margin: 3px 5px 0 0; }
 
@@ -2116,16 +2116,18 @@ ul.visible {
   transition-duration: 1s;
   color: white;
   height: 0; }
+  ul.visible li {
+    display: inline; }
   ul.visible a {
     text-decoration: none;
     cursor: pointer; }
-  ul.visible :link {
+  ul.visible a:link {
     color: white; }
-  ul.visible :visited {
+  ul.visible a:visited {
     color: white; }
-  ul.visible :active {
+  ul.visible a:active {
     color: #333333; }
-  ul.visible :hover {
+  ul.visible a:hover {
     color: #333333;
     transition: 1s; }
 
@@ -2133,7 +2135,7 @@ ul.visible {
   text-align: center;
   background: #98E205;
   color: white;
-  font-size: 100px; }
+  font-size: 1000%; }
 
 .container h1:hover {
   cursor: default; }
