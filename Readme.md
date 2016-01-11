@@ -1,6 +1,6 @@
-## Welcome to My Project
+## Welcome to My Portfolio
 
-> I am your Readme.md file, you should probably update me.
+> This is my portfolio setup using surge as the host. Please have a look around!
 
 
 ## Usage
