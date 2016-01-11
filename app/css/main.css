@@ -2089,6 +2089,7 @@ body {
 
 .layoutBar span:hover {
   cursor: pointer;
+  transition-duration: 1s;
   color: #333333; }
   .layoutBar span:hover span.gaynor {
     color: #98E205; }
@@ -2102,7 +2103,8 @@ body {
 
 .layoutBar i:hover {
   cursor: pointer;
-  color: #333333; }
+  color: #333333;
+  transition-duration: 1s; }
 
 ul.nav {
   visibility: hidden;
@@ -2124,7 +2126,8 @@ ul.visible {
   ul.visible :active {
     color: #333333; }
   ul.visible :hover {
-    color: #333333; }
+    color: #333333;
+    transition: 1s; }
 
 .container h1 {
   text-align: center;
@@ -2137,6 +2140,7 @@ ul.visible {
 
 .container span:hover {
   color: #333333;
+  transition-duration: 1s;
   cursor: pointer; }
 
 #WebsiteList {
