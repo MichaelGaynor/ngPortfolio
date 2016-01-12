@@ -162,7 +162,32 @@ ul.visible {
     background: $myColor;
     margin-top: -4px;
     padding: 5px;
+    text-align: center;
+    li{
+      list-style-type: none;
+    }
   }
 }
 
 //CONTACT PAGE
+.contact {
+  background: $myColor;
+  width: 80%;
+  height: 300px;
+  margin: 4% auto;
+  padding: 15px;
+  .contactinfo{
+    width: 200px;
+    height: 280px;
+    margin: 15px 15px 15px auto;
+    padding: 0 15px;
+    border: 1px solid $myBackground;
+    h5{
+      margin-bottom: 0;
+      margin-top: 50px;
+    }
+    h6{
+      margin-top: 0;
+    }
+  }
+}
