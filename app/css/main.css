@@ -2109,7 +2109,8 @@ body {
 ul.nav {
   visibility: hidden;
   opacity: 0;
-  height: 0; }
+  height: 0;
+  pointer-events: none; }
 
 ul.visible {
   visibility: visible;
