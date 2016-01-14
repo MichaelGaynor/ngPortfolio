@@ -1,6 +1,5 @@
 import angular from 'angular';
 import 'angular-ui-router';
-import $ from 'jquery';
 
 import config from './config'; 
 
@@ -10,6 +9,7 @@ import WebController from './controllers/web.controller';
 import DesignController from './controllers/design.controller';
 import BioController from './controllers/bio.controller';
 import ContactController from './controllers/contact.controller';
+import ResumeController from './controllers/resume.controller';
 
 angular
   .module('app', ['ui.router'])
@@ -20,4 +20,5 @@ angular
   .controller('DesignController', DesignController)
   .controller('BioController', BioController)
   .controller('ContactController', ContactController)
+  .controller('ResumeController', ResumeController)
 ;

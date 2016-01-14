@@ -33,6 +33,11 @@ let config = function($stateProvider, $urlRouterProvider) {
       controller: 'ContactController as vm',
       templateUrl: 'templates/contact.tpl.html'
     })
+    .state('root.resume', {
+      url: '/resume',
+      controller: 'ResumeController as vm',
+      templateUrl: 'templates/resume.tpl.html'
+    })
     ; 
 
 };
