@@ -122,6 +122,11 @@ var LayoutController = function LayoutController($state) {
 
   var vm = this;
   var github = document.getElementById('fa-github');
+  var linkedin = document.getElementById('fa-linkedin');
+
+  linkedin.onclick = function () {
+    window.location = "https://www.linkedin.com/in/michael-gaynor-3997b123";
+  };
 
   github.onclick = function () {
     window.location = "https://github.com/MichaelGaynor";

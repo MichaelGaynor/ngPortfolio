@@ -33,6 +33,10 @@ body {
     float: right;
     margin: 3px 5px 0 0; 
   }
+  #fa-linkedin{
+    float: right;
+    margin: 3px 5px 0 0;
+  }
   i:hover{
     cursor: pointer;
     color: $myText;
@@ -50,7 +54,7 @@ ul.visible {
   transition-duration: 1s;
   color: $myColor;
   height: 0;
-  padding-left: 4px;
+  // padding-left: 4px;
   li{
     display: inline;
   }
@@ -113,30 +117,30 @@ ul.visible {
     cursor: pointer;
     transition-duration: 1s;
   }
-  #auditioncity{
-    border-top-left-radius: 250px 50px;
-    border-bottom-left-radius: 50px 250px;
-    border-top-right-radius: 50px 250px;
-    border-bottom-right-radius: 250px 50px;
-  }
-  #contactapp{
-    border-top-left-radius: 50px 250px;
-    border-bottom-left-radius: 250px 50px;
-    border-top-right-radius: 250px 50px;
-    border-bottom-right-radius: 50px 250px;
-  }
-  #sample1{
-    border-top-left-radius: 250px 50px;
-    border-bottom-left-radius: 50px 250px;
-    border-top-right-radius: 50px 250px;
-    border-bottom-right-radius: 250px 50px;  
-  }
-  #sample2{
-    border-top-left-radius: 50px 250px;
-    border-bottom-left-radius: 250px 50px;
-    border-top-right-radius: 250px 50px;
-    border-bottom-right-radius: 50px 250px; 
-  }
+  // #auditioncity{
+  //   border-top-left-radius: 250px 50px;
+  //   border-bottom-left-radius: 50px 250px;
+  //   border-top-right-radius: 50px 250px;
+  //   border-bottom-right-radius: 250px 50px;
+  // }
+  // #contactapp{
+  //   border-top-left-radius: 50px 250px;
+  //   border-bottom-left-radius: 250px 50px;
+  //   border-top-right-radius: 250px 50px;
+  //   border-bottom-right-radius: 50px 250px;
+  // }
+  // #sample1{
+  //   border-top-left-radius: 250px 50px;
+  //   border-bottom-left-radius: 50px 250px;
+  //   border-top-right-radius: 50px 250px;
+  //   border-bottom-right-radius: 250px 50px;  
+  // }
+  // #sample2{
+  //   border-top-left-radius: 50px 250px;
+  //   border-bottom-left-radius: 250px 50px;
+  //   border-top-right-radius: 250px 50px;
+  //   border-bottom-right-radius: 50px 250px; 
+  // }
 }
 
 // DESIGN PAGE
@@ -168,6 +172,8 @@ ul.visible {
     text-align: center;
     li{
       list-style-type: none;
+      text-align: left;
+      margin-left: 35%;
     }
   }
 }
@@ -179,10 +185,24 @@ ul.visible {
   height: 300px;
   margin: 4% auto;
   padding: 15px;
+  position: relative;
+  .MikeImage{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    width: 223px;
+    overflow: hidden;
+    border-radius: 250px;
+    img{
+      width: 100%;
+    }
+  }
   .contactinfo{
+    display: inline-block;
     width: 200px;
     height: 280px;
-    margin: 15px 15px 15px auto;
+    position: absolute;
+    top: 25px;
     padding: 0 15px;
     border: 1px solid $myBackground;
     h5{

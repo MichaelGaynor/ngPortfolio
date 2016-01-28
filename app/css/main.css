@@ -2101,6 +2101,10 @@ body {
   float: right;
   margin: 3px 5px 0 0; }
 
+.layoutBar #fa-linkedin {
+  float: right;
+  margin: 3px 5px 0 0; }
+
 .layoutBar i:hover {
   cursor: pointer;
   color: #333333;
@@ -2116,8 +2120,7 @@ ul.visible {
   visibility: visible;
   transition-duration: 1s;
   color: white;
-  height: 0;
-  padding-left: 4px; }
+  height: 0; }
   ul.visible li {
     display: inline; }
   ul.visible a {
@@ -2164,26 +2167,6 @@ ul.visible {
     color: white;
     cursor: pointer;
     transition-duration: 1s; }
-  #WebsiteList #auditioncity {
-    border-top-left-radius: 250px 50px;
-    border-bottom-left-radius: 50px 250px;
-    border-top-right-radius: 50px 250px;
-    border-bottom-right-radius: 250px 50px; }
-  #WebsiteList #contactapp {
-    border-top-left-radius: 50px 250px;
-    border-bottom-left-radius: 250px 50px;
-    border-top-right-radius: 250px 50px;
-    border-bottom-right-radius: 50px 250px; }
-  #WebsiteList #sample1 {
-    border-top-left-radius: 250px 50px;
-    border-bottom-left-radius: 50px 250px;
-    border-top-right-radius: 50px 250px;
-    border-bottom-right-radius: 250px 50px; }
-  #WebsiteList #sample2 {
-    border-top-left-radius: 50px 250px;
-    border-bottom-left-radius: 250px 50px;
-    border-top-right-radius: 250px 50px;
-    border-bottom-right-radius: 50px 250px; }
 
 .design {
   margin: 0;
@@ -2207,18 +2190,32 @@ ul.visible {
     padding: 5px;
     text-align: center; }
     #bio #bioText li {
-      list-style-type: none; }
+      list-style-type: none;
+      text-align: left;
+      margin-left: 35%; }
 
 .contact {
   background: white;
   width: 80%;
   height: 300px;
   margin: 4% auto;
-  padding: 15px; }
+  padding: 15px;
+  position: relative; }
+  .contact .MikeImage {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    width: 223px;
+    overflow: hidden;
+    border-radius: 250px; }
+    .contact .MikeImage img {
+      width: 100%; }
   .contact .contactinfo {
+    display: inline-block;
     width: 200px;
     height: 280px;
-    margin: 15px 15px 15px auto;
+    position: absolute;
+    top: 25px;
     padding: 0 15px;
     border: 1px solid #98E205; }
     .contact .contactinfo h5 {
