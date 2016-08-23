@@ -166,12 +166,16 @@ Object.defineProperty(exports, '__esModule', {
 var WebController = function WebController() {
 
   var auditioncity = document.getElementById('auditioncity');
+  var voyage = document.getElementById('voyage');
   var contactapp = document.getElementById('contactapp');
   var sampleapp = document.getElementById('sample1');
   var samplecontactapp = document.getElementById('sample2');
 
   auditioncity.onclick = function () {
     window.location = "http://auditioncity.surge.sh/#/login";
+  };
+  voyage.onclick = function () {
+    window.location = "http://voyage.surge.sh/#/";
   };
   contactapp.onclick = function () {
     window.location = "http://violet-train.surge.sh/";

@@ -2224,4 +2224,10 @@ ul.visible {
     .contact .contactinfo h6 {
       margin-top: 0; }
 
+#resume {
+  width: 80%;
+  margin: 4% auto; }
+  #resume #myresume img {
+    width: 100%; }
+
 /*# sourceMappingURL=main.css.map */
