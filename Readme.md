@@ -2,7 +2,7 @@
 
 > This is my portfolio setup using surge as the host. The URL is:
 >[Michael-Gaynor.surge.sh](http://michael-gaynor.surge.sh)
->Please have a look around!
+>. Please have a look around!
 
 
 ## Usage
