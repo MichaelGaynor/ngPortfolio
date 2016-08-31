@@ -2152,7 +2152,8 @@ ul.visible {
   cursor: pointer; }
 
 #WebsiteList {
-  width: 100%;
+  width: 80%;
+  margin: 4% auto;
   text-align: center; }
   #WebsiteList .website {
     width: 280px;
