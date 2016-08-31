@@ -2158,7 +2158,7 @@ ul.visible {
   #WebsiteList .website {
     width: 280px;
     height: 150px;
-    margin: 5% 2.5% 0;
+    margin: 0 20px;
     background: white;
     padding: 10px;
     color: #333333;
