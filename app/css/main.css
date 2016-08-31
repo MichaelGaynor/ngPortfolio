@@ -2161,7 +2161,7 @@ ul.visible {
     background: white;
     padding: 10px;
     color: #333333;
-    display: inline; }
+    display: inline-block; }
   #WebsiteList .website:hover {
     background: #333333;
     color: white;
