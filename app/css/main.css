@@ -2156,12 +2156,12 @@ ul.visible {
   text-align: center; }
   #WebsiteList .website {
     width: 280px;
+    height: 150px;
     margin: 5% 2.5% 0;
     background: white;
     padding: 10px;
     color: #333333;
-    display: inline-block;
-    border: 4px dotted #333333; }
+    display: inline-block; }
   #WebsiteList .website:hover {
     background: #333333;
     color: white;

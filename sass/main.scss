@@ -103,13 +103,13 @@ ul.visible {
   text-align: center;
   .website{
     width: 280px;
+    height: 150px;
     margin: 5% 2.5% 0;
     background: $myColor;
     padding: 10px;
     // border-radius: 25px;
     color: $myText;
     display: inline-block;
-    border: 4px dotted $myText;
   }
   .website:hover{
     background: $myText;
