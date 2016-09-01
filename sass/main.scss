@@ -119,7 +119,7 @@ ul.visible {
     color: $myText;
     display: inline-block;
     vertical-align: top;
-    transition: color 1s;
+    transition: color 1s background 1s;
   }
   .website:hover{
     background: $myText;

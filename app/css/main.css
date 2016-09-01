@@ -2170,7 +2170,7 @@ ul.visible {
     color: #333333;
     display: inline-block;
     vertical-align: top;
-    transition: color 1s; }
+    transition: color 1s background 1s; }
   #WebsiteList .website:hover {
     background: #333333;
     color: white;
