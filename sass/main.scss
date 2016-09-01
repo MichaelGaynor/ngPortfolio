@@ -18,6 +18,9 @@ body {
     color: $myBackground;
     font-family: Helvetica, sans-serif;
   }
+  span {
+    transition-duration: 1s;
+  }
   span:hover{
     cursor: pointer;
     transition-duration: 1s;
