@@ -2141,14 +2141,14 @@ ul.visible {
   margin-top: 50px;
   background: #98E205;
   color: white;
-  font-size: 1000%; }
+  font-size: 1000%;
+  transition: 1s; }
 
 .container h1:hover {
   cursor: default; }
 
 .container span:hover {
   color: #333333;
-  transition-duration: 1s;
   cursor: pointer; }
 
 #WebsiteList {

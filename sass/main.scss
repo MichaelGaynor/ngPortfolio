@@ -18,9 +18,6 @@ body {
     color: $myBackground;
     font-family: Helvetica, sans-serif;
   }
-  span {
-    transition-duration: 1s;
-  }
   span:hover{
     cursor: pointer;
     transition-duration: 1s;
@@ -89,13 +86,14 @@ ul.visible {
     background: $myBackground;
     color: $myColor;
     font-size: 1000%;
+    transition: 1s;
   }
   h1:hover{
     cursor: default;
   }
   span:hover{
     color: $myText;
-    transition-duration: 1s;
+    // transition-duration: 1s;
     cursor: pointer;
   }
 }
