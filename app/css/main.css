@@ -2142,7 +2142,7 @@ ul.visible {
   background: #98E205;
   color: white;
   font-size: 1000%;
-  transition-duration: 1s; }
+  transition: color 1s; }
 
 .container h1:hover {
   cursor: default; }
