@@ -2169,12 +2169,12 @@ ul.visible {
     padding: 10px;
     color: #333333;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    transition: color 1s background 1s; }
   #WebsiteList .website:hover {
     background: #333333;
     color: white;
-    cursor: pointer;
-    transition-duration: 1s; }
+    cursor: pointer; }
 
 .design {
   margin: 0;
