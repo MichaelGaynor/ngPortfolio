@@ -2129,7 +2129,8 @@ ul.visible {
     display: inline; }
   ul.visible a {
     text-decoration: none;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: color 1s; }
   ul.visible a:link {
     color: white; }
   ul.visible a:visited {
@@ -2137,8 +2138,7 @@ ul.visible {
   ul.visible a:active {
     color: #333333; }
   ul.visible a:hover {
-    color: #333333;
-    transition: 1s; }
+    color: #333333; }
 
 .container h1 {
   text-align: center;
@@ -2170,7 +2170,7 @@ ul.visible {
     color: #333333;
     display: inline-block;
     vertical-align: top;
-    transition: color 1s background 1s; }
+    transition: color 1s; }
   #WebsiteList .website:hover {
     background: #333333;
     color: white;
