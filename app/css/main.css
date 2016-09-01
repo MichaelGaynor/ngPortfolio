@@ -2087,9 +2087,11 @@ body {
   color: #98E205;
   font-family: Helvetica, sans-serif; }
 
+.layoutBar span {
+  transition: color 1s; }
+
 .layoutBar span:hover {
   cursor: pointer;
-  transition-duration: 1s;
   color: #333333; }
   .layoutBar span:hover span.gaynor {
     color: #98E205; }
@@ -2105,10 +2107,12 @@ body {
   float: right;
   margin: 3px 5px 0 0; }
 
+.layoutBar i {
+  transition: color 1s; }
+
 .layoutBar i:hover {
   cursor: pointer;
-  color: #333333;
-  transition-duration: 1s; }
+  color: #333333; }
 
 ul.nav {
   visibility: hidden;

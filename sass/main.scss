@@ -18,9 +18,12 @@ body {
     color: $myBackground;
     font-family: Helvetica, sans-serif;
   }
+  span{
+    transition: color 1s;
+  }
   span:hover{
     cursor: pointer;
-    transition-duration: 1s;
+    // transition-duration: 1s;
     color: $myText;
     span.gaynor{
       color: $myBackground;
@@ -37,10 +40,13 @@ body {
     float: right;
     margin: 3px 5px 0 0;
   }
+  i{
+    transition: color 1s;
+  }
   i:hover{
     cursor: pointer;
     color: $myText;
-    transition-duration: 1s;
+    // transition-duration: 1s;
   }
 }
 ul.nav{
@@ -95,7 +101,6 @@ ul.visible {
   }
   span:hover{
     color: $myText;
-    // transition-duration: 1s;
     cursor: pointer;
   }
 }
