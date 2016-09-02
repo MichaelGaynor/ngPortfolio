@@ -118,7 +118,7 @@ module.exports = exports["default"];
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
-var LayoutController = function LayoutController($state) {
+var LayoutController = function LayoutController() {
 
   var vm = this;
   var github = document.getElementById('fa-github');
@@ -139,7 +139,7 @@ var LayoutController = function LayoutController($state) {
   };
 };
 
-LayoutController.$inject = ['$state'];
+LayoutController.$inject = [];
 
 exports['default'] = LayoutController;
 module.exports = exports['default'];

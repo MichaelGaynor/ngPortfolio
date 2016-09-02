@@ -1,6 +1,6 @@
 let BioController = function() {
   
-  let vm = this;
+ 
 
 };
 

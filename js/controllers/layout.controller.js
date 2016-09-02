@@ -1,4 +1,4 @@
-let LayoutController = function($state) {
+let LayoutController = function() {
   
   let vm = this;
   var github = document.getElementById('fa-github');
@@ -13,13 +13,12 @@ let LayoutController = function($state) {
   };
 
   vm.menu = function() {
-    // $state.go('root.home');
     var ul = document.getElementById('menu');
     ul.classList.toggle("nav");
   };
 
 };
 
-LayoutController.$inject = ['$state'];
+LayoutController.$inject = [];
 
 export default LayoutController;
