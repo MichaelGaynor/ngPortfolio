@@ -2187,12 +2187,8 @@ ul.visible {
 #bio {
   width: 80%;
   margin: 4% auto; }
-  #bio #bioImage {
-    margin-bottom: 0;
-    padding-bottom: 0; }
-    #bio #bioImage img {
-      width: 100%;
-      margin-bottom: 0; }
+  #bio #bioImage img {
+    width: 100%; }
   #bio #bioText {
     background: white;
     margin-top: -4px;

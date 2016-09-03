@@ -23,7 +23,6 @@ body {
   }
   span:hover{
     cursor: pointer;
-    // transition-duration: 1s;
     color: $myText;
     span.gaynor{
       color: $myBackground;
@@ -78,7 +77,6 @@ ul.visible {
   }
   a:hover{
     color: $myText;
-    // transition: 1s;
   }
 }
 
@@ -115,7 +113,6 @@ ul.visible {
     margin: 20px;
     background: $myColor;
     padding: 10px;
-    // border-radius: 25px;
     color: $myText;
     display: inline-block;
     vertical-align: top;
@@ -126,32 +123,7 @@ ul.visible {
     background: $myText;
     color: $myColor;
     cursor: pointer;
-    // transition-duration: 1s;
   }
-  // #auditioncity{
-  //   border-top-left-radius: 250px 50px;
-  //   border-bottom-left-radius: 50px 250px;
-  //   border-top-right-radius: 50px 250px;
-  //   border-bottom-right-radius: 250px 50px;
-  // }
-  // #contactapp{
-  //   border-top-left-radius: 50px 250px;
-  //   border-bottom-left-radius: 250px 50px;
-  //   border-top-right-radius: 250px 50px;
-  //   border-bottom-right-radius: 50px 250px;
-  // }
-  // #sample1{
-  //   border-top-left-radius: 250px 50px;
-  //   border-bottom-left-radius: 50px 250px;
-  //   border-top-right-radius: 50px 250px;
-  //   border-bottom-right-radius: 250px 50px;  
-  // }
-  // #sample2{
-  //   border-top-left-radius: 50px 250px;
-  //   border-bottom-left-radius: 250px 50px;
-  //   border-top-right-radius: 250px 50px;
-  //   border-bottom-right-radius: 50px 250px; 
-  // }
 }
 
 // DESIGN PAGE
@@ -171,10 +143,7 @@ ul.visible {
   #bioImage{
     img{
       width: 100%;
-      margin-bottom: 0;
     }
-    margin-bottom: 0;
-    padding-bottom: 0;
   }
   #bioText{
     background: $myColor;

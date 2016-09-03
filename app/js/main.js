@@ -50,10 +50,7 @@ module.exports = exports['default'];
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var BioController = function BioController() {
-
-  var vm = this;
-};
+var BioController = function BioController() {};
 
 BioController.$inject = [];
 
@@ -133,7 +130,6 @@ var LayoutController = function LayoutController() {
   };
 
   vm.menu = function () {
-    // $state.go('root.home');
     var ul = document.getElementById('menu');
     ul.classList.toggle("nav");
   };
