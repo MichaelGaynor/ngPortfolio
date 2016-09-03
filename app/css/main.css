@@ -2107,7 +2107,7 @@ body {
   float: right;
   margin: 3px 5px 0 0; }
 
-.layoutBar i {
+.layoutBar i.fab {
   transition: color 1s; }
 
 .layoutBar i:hover {
