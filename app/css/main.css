@@ -2177,12 +2177,8 @@ ul.visible {
     color: white;
     cursor: pointer; }
 
-.design {
-  margin: 0;
-  padding: 0; }
-  .design h1 {
-    margin: 0;
-    padding: 0; }
+.design h1 {
+  margin: 0; }
 
 #bio {
   width: 80%;
