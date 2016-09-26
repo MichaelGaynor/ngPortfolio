@@ -1,7 +1,7 @@
 let LayoutController = function() {
   
   let vm = this;
-  var github = document.getElementById('fa-github');
+  // var github = document.getElementById('fa-github');
   var linkedin = document.getElementById('fa-linkedin');
 
   linkedin.onclick = function() {

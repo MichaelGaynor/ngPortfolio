@@ -110,15 +110,15 @@ exports["default"] = HomeController;
 module.exports = exports["default"];
 
 },{}],6:[function(require,module,exports){
-'use strict';
+"use strict";
 
-Object.defineProperty(exports, '__esModule', {
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var LayoutController = function LayoutController() {
 
   var vm = this;
-  var github = document.getElementById('fa-github');
+  // var github = document.getElementById('fa-github');
   var linkedin = document.getElementById('fa-linkedin');
 
   linkedin.onclick = function () {
@@ -137,8 +137,8 @@ var LayoutController = function LayoutController() {
 
 LayoutController.$inject = [];
 
-exports['default'] = LayoutController;
-module.exports = exports['default'];
+exports["default"] = LayoutController;
+module.exports = exports["default"];
 
 },{}],7:[function(require,module,exports){
 "use strict";
